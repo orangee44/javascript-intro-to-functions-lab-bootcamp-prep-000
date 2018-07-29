@@ -20,7 +20,7 @@ function logWhisper(string)
 
 function sayHiToGrandma(string)
 {
-  
+  if string === string.toLowerCase
 }
 
 describe('sayHiToGrandma(string)', function() {
