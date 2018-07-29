@@ -26,15 +26,16 @@ function sayHiToGrandma(string)
   } else if (string === string.toUpperCase())
   {
     return "YES INDEED!"
-  } else 
+  } else if (string === "I love you, Grandma.")
+  {
+    return "I love you, yoo."
+  } else
+  {
+    return "what?"
+  }
   
   
 }
 
-describe('sayHiToGrandma(string)', function() {
 
-  it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
-  })
-})
 
